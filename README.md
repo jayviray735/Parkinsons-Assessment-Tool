@@ -10,8 +10,8 @@ The software consists of a two-part pipeline:
 ## Repository Structure
 * `/Unity Project/` - The complete Unity project (C# scripts, scenes, and UI assets). 
 * `/Data_Analysis/` - The automated Python statistical pipeline used to evaluate between-group and within-group kinematic data.
-* `/Sample_Data/` - Synthetically generated `.csv` files matching the exact output structure of the VR headset. 
-  * *Ethics Note: Real participant data has been omitted from this public repository to comply with university ethics regarding human-participant data privacy. The provided mock data allows the analytical pipeline to be safely evaluated.*
+
+* *Ethics Note: Real participant data has been omitted from this public repository to comply with university ethics regarding human-participant data privacy. The provided mock data allows the analytical pipeline to be safely evaluated.*
 
 ---
 
@@ -34,6 +34,6 @@ The software consists of a two-part pipeline:
 ## Part 2: Running the Python Data Analysis
 
 ### Prerequisites
-The analytical pipeline was built using Python 3.x. The following libraries are required:
+The analytical pipeline was built using Python 3.12.2. The following libraries are required:
 ```bash
 pip install pandas numpy scipy matplotlib seaborn
