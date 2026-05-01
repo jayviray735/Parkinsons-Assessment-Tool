@@ -37,3 +37,9 @@ The software consists of a two-part pipeline:
 The analytical pipeline was built using Python 3.12.2. The following libraries are required:
 ```bash
 pip install pandas numpy scipy matplotlib seaborn
+```
+
+### To Run
+```bash
+python <analysis_filename>.py
+```
